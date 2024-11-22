@@ -1,0 +1,44 @@
+{
+  "name": "quote-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:seed": "prisma db seed"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "@radix-ui/react-scroll-area": "^1.2.1",
+    "@tanstack/react-virtual": "^3.10.9",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "csv-parse": "^5.6.0",
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1",
+    "electron-serve": "^2.1.1",
+    "lucide-react": "^0.294.0",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "electron-is-dev": "^2.0.0",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.4",
+    "postcss": "^8.4.32",
+    "prisma": "^5.22.0",
+    "tailwindcss": "^3.4.1"
+  }
+}
